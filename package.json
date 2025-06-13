@@ -1,6 +1,9 @@
 {
   "name": "draw-app",
   "private": true,
+  "bin": {
+    "crytek-starter-kit": "./bin/index.js"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -16,5 +19,6 @@
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"
-  }
+  },
+  "author": "Mridul Pandey"
 }
